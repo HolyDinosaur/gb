@@ -7,12 +7,13 @@ void FomAndTo(int n, int m){
 		return;
 	}
 	FomAndTo(n, m - 1);
-	Console.Write(m + " ");
+	Console.Write($"{m}" + " ");
 }
 
 Console.Write("Введите число N: ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
+Console.Write(n + " ");
 FomAndTo(n, m);
 }}
