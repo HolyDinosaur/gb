@@ -15,5 +15,4 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
 FomAndTo(n, m);
-
 }}
